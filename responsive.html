@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Temel Stil Tanımları */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu {
+            background-color: #0077b6;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsive Tasarım Uygulamaları */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Ekran Genişliğine Bağlı Stil Değişiklikleri */
+        @media screen and (max-width: 768px) {
+            .menu {
+                display: none;
+            }
+            .content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Web Sayfası Başlığı</h1>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>Ana Sayfa</li>
+            <li>Hakkımızda</li>
+            <li>Hizmetler</li>
+            <li>İletişim</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2>İçerik Başlığı</h2>
+            <p>
+                İçerik buraya gelecek.
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2023 Web Sayfası. Tüm hakları saklıdır.
+    </div>
+</body>
+</html>
